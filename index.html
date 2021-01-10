@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+
+            <nav>
+                <a href="#">Inicio</a>
+                
+                <a href="#">Séries</a>
+                
+                <a href="#">Filmes</a>
+                
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="movie-main">
+            <div class="container">
+                <h3 class="title">SCISSOR SEVEN</h3>
+            
+                <p class="description">Seeking to recover his memory, a scissor-wielding, hairdressing, bungling quasi-assassin stumbles into a struggle for power among feuding factions.</p>
+            </div>
+
+            <div class="buttons">
+                <button role="button" class="button" onClick="watch()">
+                    <i class="fas fa-play"></i>    
+                    WATCH NOW
+                </button>
+                        
+                <button role="button" class="button" onClick="infoPage()"> 
+                    <i class="fas fa-info-circle"></i>
+                    MORE INFORMATION
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="carousel-movie">
+        <div class="owl-carousel owl-theme">
+                <div class="item" onClick="iOne()">
+                    <img class="box-movie" src="img/img-01.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iTwo()">
+                    <img class="box-movie" src="img/img-02.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iThree()">
+                    <img class="box-movie" src="img/img-03.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iFour()">
+                    <img class="box-movie" src="img/img-04.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iFive()">
+                    <img class="box-movie" src="img/img-05.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iSix()">
+                    <img class="box-movie" src="img/img-06.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iSeven()">
+                    <img class="box-movie" src="img/img-07.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iEight()">
+                    <img class="box-movie" src="img/img-08.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iNine()">
+                    <img class="box-movie" src="img/img-09.jpg" alt="">
+                </div>
+                
+                <div class="item" onClick="iTen()">
+                    <img class="box-movie" src="img/img-10.jpg" alt="">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/24d1d531ad.js" crossorigin="anonymous"></script>
+    
+    <script src="js/owl/jquery.min.js"></script>
+    
+    <script src="js/owl/owl.carousel.min.js"></script>
+    
+    <script src="js/setup.js"></script>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
